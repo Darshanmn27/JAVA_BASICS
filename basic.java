@@ -124,6 +124,49 @@ public class basic
         System.out.println(r);
     }
 
+    public static void and()
+    {
+        System.out.println("and  operator ");
+        int a=5;//101
+        int b=4;//100
+        System.out.println(10&5);
+        System.out.println((a&b));//    100
+        System.out.println(5&7);//101  111
+        System.out.println(10&2);//1010 ,0010
+
+    }
+    public static void or()
+    {
+        System.out.println("bitwise or  operator");
+        int a=5;//101
+        int b=4;//100
+        System.out.println((a|b));// 101
+        System.out.println(5|7);//101  111==>111
+        System.out.println(10|2);//1010 ,0010==> 1010
+
+    }
+    public static void xor()
+    {
+        System.out.println("bitwise xor  operator");
+        int a=5;//101
+        int b=4;//100
+        System.out.println((a^b));// 001
+        System.out.println(5^7);//101  111==>010
+        System.out.println(10^2);//1010 ,0010==> 1000
+
+    }
+    public static void not()
+    {
+        System.out.println("bitwise  compliment  operator");
+        int a=5;//101==>010
+        int b=4;//100==>011
+        int c=-20;
+        System.out.println(~a);//-6
+        System.out.println(~b);//-5
+        System.out.println(~c);//19
+
+    }
+
 
     public static void main(String[] args) 
     {
@@ -135,6 +178,10 @@ public class basic
         logical();
         shift();
         ternary();
+        and();
+        or();
+        xor();
+        not();
         
     }
 
