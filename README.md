@@ -82,3 +82,75 @@ Follow these steps to **clone and run the Java programs** from this repository:
 ### 1️⃣ Clone the Repository  
 ```sh
 git clone https://github.com/Darshanmn27/JAVA_BASICS.git
+
+
+
+
+2️⃣ Navigate to the Project Folder
+sh
+Copy
+Edit
+cd JAVA_BASICS
+3️⃣ Compile and Run a Java File
+sh
+Copy
+Edit
+javac JavaBasics.java
+java JavaBasics
+📂 Project Structure
+css
+Copy
+Edit
+JAVA_BASICS/
+│── src/
+│   ├── Basics.java
+│   ├── ControlFlow.java
+│   ├── ArraysStrings.java
+│   ├── OOPConcepts.java
+│   ├── ExceptionHandling.java
+│   ├── CollectionsExample.java
+│── README.md
+│── .gitignore
+│── LICENSE
+📌 Folder Details:
+
+src/ → Contains Java source files categorized by concepts
+README.md → Documentation for the repository
+.gitignore → Specifies ignored files (e.g., .class files)
+LICENSE → Open-source license file
+📝 Code Examples
+🔹 Print "Hello, Java!"
+java
+Copy
+Edit
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+🔹 Simple If-Else Statement
+java
+Copy
+Edit
+int num = 10;
+if (num > 0) {
+    System.out.println("Positive Number");
+} else {
+    System.out.println("Negative Number");
+}
+🔹 For Loop Example
+java
+Copy
+Edit
+for (int i = 1; i <= 5; i++) {
+    System.out.println("Iteration: " + i);
+}
+🔹 Exception Handling Example
+java
+Copy
+Edit
+try {
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Error: Division by zero is not allowed.");
+}
